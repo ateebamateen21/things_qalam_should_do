@@ -1,6 +1,6 @@
 # Privacy Policy for Qalam Helper
 
-**Last Updated: January 4, 2026**
+**Last Updated: October 10, 2026**
 
 ## Data Collection
 
@@ -17,6 +17,7 @@ This extension:
 Qalam Helper operates entirely within your browser:
 - Reads course information from qalam.nust.edu.pk pages you visit
 - Performs calculations locally in your browser
+- Keeps a cache of credit hours locally on your PC.
 - All data processing happens on your device
 - No data ever leaves your browser
 
@@ -43,7 +44,7 @@ This extension does NOT use any third-party services, analytics, or tracking too
 
 ## Contact
 
-If you have questions about this privacy policy, you can open an issue on the [GitHub repository](https://github.com/AbdullahHassan192/qalam-helper).
+If you have questions about this privacy policy, you can open an issue on the [GitHub repository](https://github.com/ateebamateen21/things_qalam_should_do). This is a fork I maintain for firefox specifically with updated no of weeks according to the current semester, if you are having issues with using it on chrome, please refer to [Abdullah Hassan](https://github.com/AbdullahHassan192/Qalam-Helper)
 
 ## Consent
 
