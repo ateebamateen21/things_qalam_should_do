@@ -1,5 +1,10 @@
 //AttendanceModule - handles attendance data extraction and display
 
+
+// In case the semester weeks change. Fall2026 has 15 weeks instead of 16.
+const noOfWeeks = 15
+
+//------------
 const AttendanceModule = {
     // Flag to prevent concurrent executions of overview injection
     isProcessingOverview: false,
@@ -47,7 +52,7 @@ const AttendanceModule = {
         }
 
         // Calculate total classes for semester: Credits * 16 weeks
-        const totalClasses = creditHours * 16;
+        const totalClasses = creditHours * noOfWeeks;
         const requiredPresent = Math.ceil(totalClasses * 0.75);
         const maxAbsences = totalClasses - requiredPresent;
         
@@ -296,7 +301,7 @@ const AttendanceModule = {
             }
             
             // Calculate using credit hour formula
-            const totalClasses = creditHours * 16;
+            const totalClasses = creditHours * noOfWeeks;
             const requiredPresent = Math.ceil(totalClasses * 0.75);
             const maxAbsences = totalClasses - requiredPresent;
             const attendedClasses = attendanceData.attendedClasses;
@@ -393,7 +398,7 @@ const AttendanceModule = {
             }
             
             // Calculate using credit hour formula
-            const totalClasses = creditHours * 16;
+            const totalClasses = creditHours * noOfWeeks;
             const requiredPresent = Math.ceil(totalClasses * 0.75);
             const maxAbsences = totalClasses - requiredPresent;
             const attendedClasses = attendanceData.attendedClasses;
