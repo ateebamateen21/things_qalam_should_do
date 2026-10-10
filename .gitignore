@@ -1,3 +1,4 @@
 *.patch
 *.env
 *.env.local
+*.zip
