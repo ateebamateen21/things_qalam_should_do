@@ -6,8 +6,9 @@
   "author": "Abdullah",
   "browser_specific_settings": {
     "gecko": {
-      "id": "qalam-helper@qalam-helper.local",
-      "strict_min_version": "109.0"
+      "id": "qalam-helper@nustians",
+      "strict_min_version": "142.0",
+      "data_collection_permissions": { "required": ["none"] }
     }
   },
   "icons": {
