@@ -25,7 +25,7 @@ Install directly from the Chrome Web Store: [Qalam Helper](https://chromewebstor
 3. Select the `manifest.json` file from this project folder
 4. Visit [qalam.nust.edu.pk](https://qalam.nust.edu.pk) to use it in Firefox
 
-### Method 2: Manual Installation (Unpacked)
+### Method 3: Manual Installation (Unpacked)
 
 1. **Download the Extension**
    - Click the green "Code" button above
@@ -58,3 +58,10 @@ This is an unofficial extension and is not affiliated with NUST or Qalam.
 ---
 
 Made for NUST students by a NUST student
+
+
+## Maintainer notes (Firefox)
+- Don't change the add-on ID in manifest.json (qalam-helper-firefox@nustians). It identifies the AMO listing.
+- strict_min_version is 142.0 because data_collection_permissions needs it (AMO requires that line).
+- Each semester: update noOfWeeks at the top of modules/attendance.js.
+- Every AMO upload needs a higher version number than the last.
